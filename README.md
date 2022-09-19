@@ -16,6 +16,9 @@ gh auth login
 git config --global user.email sawara7+dev@gmail.com
 git config --global user.name sawara7
 
+クローン
+gh repo clone sawara7/firebase-utils-server
+
 node.js
 https://nodejs.org/ja/
 
