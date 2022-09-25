@@ -1,34 +1,41 @@
-windows
+# windows
 
-vscode
+## vscode
 https://code.visualstudio.com/download
 
-git
+## git
 https://git-scm.com/
 
-github cli
+## github cli
 https://cli.github.com/
 
-ログイン
+### ログイン
 gh auth login
 
 コミットするときにuserとemail
 git config --global user.email sawara7+dev@gmail.com
 git config --global user.name sawara7
 
-クローン
+### クローン
 gh repo clone sawara7/firebase-utils-server
 
-node.js
+## node.js
 https://nodejs.org/ja/
 
-mongodb
+## mongodb
 https://www.mongodb.com/try/download/community?tck=docs_server
 
-Google Cloud SDK
+## Google Cloud SDK
 https://cloud.google.com/sdk/docs/install-sdk?hl=ja
 
-PowerShellのセキュリティポリシーの変更
+gcloud compute ssh --project fxbot-c80cd --zone asia-northeast2-a fxbot-1
+
+# PowerShell 2.0
+### PowerShellのセキュリティポリシーの変更
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 
-gcloud compute ssh --project fxbot-c80cd --zone asia-northeast2-a fxbot-1
+### node.jsをバックグラウンドで実行する(Windows)
+Start-job -Name "bot-xxx" {node .}
+Get-job
+Remove-job
+
