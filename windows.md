@@ -1,0 +1,1 @@
+ssh sawara7@SUB2
